@@ -1,0 +1,7 @@
+# Keep Kaggle's matched CUDA torch/torchvision installation.
+# The runner records exact installed versions in every experiment.
+numpy>=1.24,<3
+Pillow>=10,<13
+scikit-learn>=1.3,<2
+torch>=2.1,<3
+torchvision>=0.16,<1

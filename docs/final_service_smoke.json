@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "device": "cpu",
+  "prediction": 38.03358046844738,
+  "model_version": "attention518-2186f65095e8",
+  "processing_ms": 18988.587,
+  "startup_and_test_seconds": 22.528459599998314,
+  "storage_survives_restart": true,
+  "xml_error_checked": true,
+  "exact_original_54545_weights": false
+}

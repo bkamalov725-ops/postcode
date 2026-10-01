@@ -1,0 +1,52 @@
+{
+  "source": "postcode_results.zip from completed Kaggle run",
+  "environment": {
+    "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+    "platform": "Linux-6.12.90+-x86_64-with-glibc2.35",
+    "packages": {
+      "numpy": "2.0.2",
+      "Pillow": "11.3.0",
+      "scikit-learn": "1.6.1",
+      "torch": "2.10.0+cu128",
+      "torchvision": "0.25.0+cu128"
+    },
+    "gpus": [
+      "Tesla T4",
+      "Tesla T4"
+    ]
+  },
+  "selection": {
+    "name": "dinov2_vitb14__spatial__svr_c100",
+    "components": [
+      "dinov2_vitb14__spatial__svr_c100"
+    ],
+    "weights": [
+      1.0
+    ],
+    "metrics": {
+      "mae": 8.981785738141019,
+      "within_10_pct": 64.3854748603352,
+      "count": 716
+    }
+  },
+  "baselines": [
+    {
+      "key": "baseline__official_ridge_a100",
+      "metrics": {
+        "mae": 18.090828673716086,
+        "within_10_pct": 37.849162011173185,
+        "count": 716
+      }
+    },
+    {
+      "key": "baseline__median",
+      "metrics": {
+        "mae": 33.814245810055866,
+        "within_10_pct": 11.312849162011174,
+        "count": 716
+      }
+    }
+  ],
+  "folds_sha256": "a228f282c8a66a54802723e55ce3f49d41487440b448f80d6886f2c6ecf4a2e0",
+  "note": "Fixed stratified grouped 5-fold selection CV; not an untouched holdout. All scaler/head fitting uses training folds only. No test targets are available."
+}

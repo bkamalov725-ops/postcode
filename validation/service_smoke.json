@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "requests": [
+    {
+      "wall_seconds": 2.193529899999703,
+      "assessment_id": "3fed5ed2-e87a-44a8-9352-f4d293836e82",
+      "shipment_id": "000123",
+      "load_pct": "97.56919035934246",
+      "model_version": "sha256:9c246e84c43930879154c516529a31080027840af33c9841a937c2257d500e3a",
+      "created_at": "2026-09-17T21:39:10.150Z",
+      "processing_ms": "2172.385"
+    },
+    {
+      "wall_seconds": 2.250981799999863,
+      "assessment_id": "9f794dc5-86b4-4659-8717-3c5126e0bdc7",
+      "shipment_id": "000123",
+      "load_pct": "97.56919035934246",
+      "model_version": "sha256:9c246e84c43930879154c516529a31080027840af33c9841a937c2257d500e3a",
+      "created_at": "2026-09-17T21:39:12.401Z",
+      "processing_ms": "2231.763"
+    }
+  ],
+  "history_count": 2,
+  "persisted_after_process_restart": true,
+  "xml_error_statuses": [
+    400,
+    404
+  ],
+  "batch_csv_count": 10,
+  "batch_vs_single_max_abs_difference_pp": 4.3207575473047655e-07,
+  "original_submission_count": 307
+}

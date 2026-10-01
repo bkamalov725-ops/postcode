@@ -1,0 +1,77 @@
+{
+  "model_version": "sha256:9c246e84c43930879154c516529a31080027840af33c9841a937c2257d500e3a",
+  "device": "cpu",
+  "threads": 4,
+  "logical_cpus": 12,
+  "processor": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.0.2",
+    "Pillow": "11.3.0",
+    "scikit-learn": "1.6.1",
+    "torch": "2.10.0+cpu",
+    "torchvision": "0.25.0+cpu"
+  },
+  "startup_seconds": 4.006436400002713,
+  "first_photo_seconds": 1.999332699997467,
+  "warm_count": 10,
+  "warm_median_seconds": 1.9865593499998795,
+  "warm_p95_seconds": 2.0512226299995744,
+  "warm_max_seconds": 2.060048300001654,
+  "predictions": [
+    {
+      "image_id": "img_00b135ede40393ac4459",
+      "load_pct": 100.0,
+      "seconds": 2.0031425999986823
+    },
+    {
+      "image_id": "img_024af7d284b5259e46db",
+      "load_pct": 97.56919035934246,
+      "seconds": 2.060048300001654
+    },
+    {
+      "image_id": "img_031cb4706aa99c2c29d7",
+      "load_pct": 96.55788981405944,
+      "seconds": 2.014500700002827
+    },
+    {
+      "image_id": "img_037814d0bd90cdd3f519",
+      "load_pct": 54.57720169615042,
+      "seconds": 2.0027062999979535
+    },
+    {
+      "image_id": "img_03bed56db6bd8389fdce",
+      "load_pct": 80.25408390311287,
+      "seconds": 1.9010378000020864
+    },
+    {
+      "image_id": "img_04385169354be79e7122",
+      "load_pct": 11.176391388001818,
+      "seconds": 1.952080399998522
+    },
+    {
+      "image_id": "img_04c2f14a79df14d0a0d8",
+      "load_pct": 12.160682264990065,
+      "seconds": 1.9704124000018055
+    },
+    {
+      "image_id": "img_05a3bf0b269db86a5ad6",
+      "load_pct": 10.067862849866422,
+      "seconds": 1.9231026000015845
+    },
+    {
+      "image_id": "img_061bc6606624bbace682",
+      "load_pct": 17.024130567924246,
+      "seconds": 2.0404356999970332
+    },
+    {
+      "image_id": "img_07f208b92285b85dbfe4",
+      "load_pct": 8.242987997480377,
+      "seconds": 1.89802520000012
+    }
+  ],
+  "note": "Sequential requests, first N CSV images; excludes HTTP and queueing.",
+  "reference_max_abs_difference_pp": 0.0480556961504206,
+  "reference_mean_abs_difference_pp": 0.010183207631360425
+}
